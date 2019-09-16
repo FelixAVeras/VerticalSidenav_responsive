@@ -11,5 +11,9 @@ $(document).ready(function() {
 			$(this).addClass('activado');
 			$(this).children('ul').slideDown();
 		}
+
+		$('.menu li ul li a').click(function() {
+			window.location.href = $(this).attr('href');
+		})
 	});
 });
