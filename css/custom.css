@@ -1,0 +1,59 @@
+* { 
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	-o-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+body { font-family: 'Montserrat', sans-serif; }
+
+a { text-decoration: none; }
+
+.btnMenu {
+	display: none;
+	padding: 20px;
+	display: block;
+	background: #1abc9c;
+	color: #fff;
+}
+
+.btnMenu i.fa { float: right; }
+
+.contenedor-menu {
+	width: 20%;
+	min-width: 300px;
+	margin: 50px;
+	display: inline-block;
+	line-height: 18px;
+}
+
+.contenedor-menu .menu { width: 100%; }
+
+.contenedor-menu ul { list-style: none; }
+
+.contenedor-menu .menu li a {
+	color: #494949;
+	display: block;
+	padding: 15px 20px;
+	background: #e9e9e9;
+}
+.contenedor-menu .menu li a:hover { background: #16a085; color: #fff; } 
+.contenedor-menu .menu i.fa { 
+	font-size: 12px; 
+	line-height: 18px; 
+	float: right; 
+	margin-left: 10px; 
+}
+
+.contenedor-menu .menu ul { display: none; }
+.contenedor-menu .menu ul li a {
+	background: #424242;
+	color: #e9e9e9;
+}
+
+.contenedor-menu .menu .activado > a {
+	background: #16a085;
+	color: #fff;
+}
